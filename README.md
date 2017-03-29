@@ -21,3 +21,7 @@ Blueprints can designate compute nodes agent configuration in a few ways, one be
 Note that the script also has many environment variables for finer grained tuning.  Of particular note is `PACKAGE_URL`, which will override the standard manager path for agent packages.
 
 Example run from the command line:  sudo ./start-agent.sh --manager-ip=172.16.0.3 --node-instance-id=host_6ddf4 --deployment-id=my_deployment --daemon-user=centos
+
+### Compatibility
+
+The script has only been tested with 3.4.x managers.
